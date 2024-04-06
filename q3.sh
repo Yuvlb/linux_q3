@@ -15,4 +15,9 @@ read -p "Enter the colors ('s' for gray, 'y' for yellow, 'g' for green): " input
 input_word=$(echo "$input_word" | tr '[:upper:]' '[:lower:]')
 input_colors=$(echo "$input_colors" | tr '[:upper:]' '[:lower:]')
 
+check_word() {
+    local regex include exclude unknown word="$1" colors="$2"
+    # Function body will be implemented later
+}
+
 
