@@ -11,3 +11,8 @@ fi
 # Ask the user to enter the colors
 read -p "Enter the colors ('s' for gray, 'y' for yellow, 'g' for green): " input_colors
 
+# Convert the input word and colors to lowercase
+input_word=$(echo "$input_word" | tr '[:upper:]' '[:lower:]')
+input_colors=$(echo "$input_colors" | tr '[:upper:]' '[:lower:]')
+
+
